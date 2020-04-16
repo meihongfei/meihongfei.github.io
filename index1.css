@@ -1,0 +1,152 @@
+body{
+ margin:0; padding:0;
+ background:#1b262c;
+}
+    @font-face{
+font-family:Songticu;
+src:url(Songticu.ttf)
+}
+    @font-face{
+font-family:Songti;
+src:url(Songti.ttf)
+}
+.aa{
+    width:100%;height:150px;
+    background:#29426b;
+position:fixed; top:0;right:0;
+}
+.aa p{
+    font-family:Songticu;
+    text-align:center;
+    font-size:66px;
+letter-spacing:8px;
+    color:#151d41;
+    background:none;
+    margin-top:30px;
+}
+.ab{
+    width:100%; height:60px;
+    overflow:hidden;
+    background:#1f355c;
+    position:absolute;
+    top:150px;
+    transition:height 2s;
+    -webkit-transition:height 2s; /* Safari */
+}
+.ab a,.abc{
+    display:block;
+    font-size:50px;
+    color:#afafaf;
+    background:#1f355c;
+    text-align:center;
+    padding-bottom:90px;
+text-decoration:none;
+}
+.ab:hover{
+    height:610px;
+}
+.ab a:hover{
+   color:#ff809e;
+    
+}
+
+.bb{
+    width:100%; height:1500px;
+}
+.bb img{
+    width:100%; height:1500px;
+}
+.bb p{
+    font-family:Songticu;
+    font-size:77px;
+    color:white;
+    background:none;
+    text-align:center;
+    position:relative;
+    bottom:1000px;
+}
+.bc{
+    width:100%; height:1300px;
+    background:green;
+    position:relative;
+    bottom:1600px;
+    opacity:0;
+}
+.cc{
+    width:920px;height:auto;
+    background:url(afghf.png);
+    color:#a39b99;
+    overflow:hidden;
+    border-radius:20px;
+box-shadow:10px 20px 0px #788b99;
+    margin:50px auto;
+}
+.cc p{
+    font-family:Songti;
+    font-size:29px;
+    padding:40px 30px;
+    background:none;
+text-indent:90px;/*首行缩进*/
+text-align: justify;/*两端对齐*/
+  line-height:200%;/*行高  */
+letter-spacing:0px;/*字符间距*/
+word-wrap:break-word;
+}
+.cc a{
+    background:none;
+text-decoration:none;
+}
+
+.ff{
+    width:100%;
+    height:600px;
+    background:black;
+
+}
+#ffone{
+    text-align:center;
+    font-size:65px;
+letter-spacing:8px;
+    color:white;
+    padding-top:80px;
+    font-family:Songticu;
+}
+#fftwo{
+text-align:center;
+    font-size:35px;
+    color:white;
+    position:relative;
+    top:-40px;
+}
+.ff div{
+    width:110px;
+    height:110px;
+    border-radius:100%;
+    background:gold;
+    float:left;
+    margin:10px;
+    position:relative;
+    left:300px;
+    top:-50px;
+    overflow:hidden;
+}
+.ff img{
+    width:110px;
+}
+#icoone{
+    width:120px;
+    position:relative;
+    left:-10px;
+}
+hr{
+    color:white;
+    position:relative;
+    top:100px; left:-170px;
+
+}
+.ff span{
+    color:white;
+    position:relative;
+    top:130px;left:-100px;
+    font-size:20px;
+}
