@@ -6,9 +6,12 @@ body{
 font-family:Songticu;
 src:url(Songticu.ttf)
 }
-    @font-face{
-font-family:Songti;
-src:url(Songti.ttf)
+@font-face{
+     font-family: 'Songti'; 
+     src: url('Songti.eot');
+     src:url('Songti.woff') format('woff'),
+         url('Songti.ttf') format('truetype'),
+         url('Songti.svg') format('svg');
 }
 .aa{
     width:100%;height:150px;
