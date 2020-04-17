@@ -16,7 +16,7 @@ src:url(Songti.ttf)
 position:fixed; top:0;right:0;
 }
 .aa p{
-    font-family:Songticu;
+    font-family:'Songticu';
     text-align:center;
     font-size:66px;
 letter-spacing:8px;
@@ -134,7 +134,7 @@ text-align:center;
     width:110px;
 }
 #icoone{
-    width:120px;
+    width:120px；
     position:relative;
     left:-10px;
 }
